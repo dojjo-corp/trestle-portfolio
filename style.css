@@ -1,0 +1,167 @@
+/* WHOLE DOCUMENT (ROOT) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --logo-size-sm: 150px;
+    --logo-size-md: 250px;
+    --logo-size-lg: 400px;
+}
+
+body {
+    background-color: #0d0c0c;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+}
+
+hr {
+    border: none;
+    border-top: 15px dotted #6F6F6F;
+    width: 10%;
+    margin: 80px auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+/* HEADER AND NAVIGATION */
+header {
+    background-color: #0d0c0c;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 1);
+    margin-right: 50px;
+    text-decoration: none;
+}
+nav a:last-of-type {
+    margin-right: 0;
+}
+nav a:hover {
+    text-decoration: 4px underline;
+}
+nav a:target {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* HERO SECTION */
+.hero-top-layer {
+    height: 90vh;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5vh 20vw ;
+    justify-content: center;
+    height: 90vh;
+}
+.logo {
+    width: var(--logo-size-sm);
+    height: var(--logo-size-sm);
+    border-radius: 100%;
+}
+.intro-work {
+    font-weight: 600;
+    font-size: 3rem;
+}
+.btn {
+    background-color: #6F6F6F;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'roboto slab, serif';
+    font-size: 1.3rem;
+    padding: 20px 22px;
+}
+
+/* PROJECT SECTION */
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-align: center;
+}
+.proj-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+/* .proj-wrapper {} */
+.project-container {
+    width: 25vw;
+    height: 450px;
+}
+#projects img {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* ROLE SECTION */
+#roles {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 80px;
+    text-align: center;
+    gap: 70px;
+}
+.role-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.role-container {
+    text-align: left;
+    width: 400px;
+}
+.role-container:hover {
+
+}
+.role-container h2 {
+    margin: 10px 0;
+}
+
+/* COFFEE SECTION */
+#coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 150px 0;
+}
+#coffee h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* ***************ABOUT ME PAGE*************** */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 90vh;
+    padding: 0 300px;
+}
+#about img {
+    width: var(--logo-size-md);
+    height: var(--logo-size-md);
+}
+.about-text {
+    margin-top: 40px;
+}
+
+/* MOBILE FREINDLINESS */
+@media screen {
+    
+}
